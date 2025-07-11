@@ -150,3 +150,4 @@ if __name__ == "__main__":
         main()
     except cp.cuda.memory.OutOfMemoryError:
         print("CUDA out of memory. Try reducing NUM_AGENTS or GRID_SIZE.")
+        
